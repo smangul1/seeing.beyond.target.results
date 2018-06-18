@@ -1,10 +1,3 @@
-# Update! 06/18/2018
-
-PILOT.both.clean.csv
-PILOT.WGS.clean.csv
-PILOT.RNASeq.clean.csv
-
-
 # TCGA sample outcomes
 
 Per-sample outcomes/phenotypes/covariates to test against.

@@ -1,11 +1,11 @@
-sed 's/.bam//' PILOT.WXS.id >PILOT.WXS.new.id 
-cat 5S.cov.csv 5S.cov.2.csv >5S.606.csv
-cat background.coverage.WXS.csv background.coverage.WXS.2.csv >background.coverage.WXS.445.csv
-cat MT.cov.csv MT.cov.2.csv >MT.cov.607.csv
-data.MT.cov=read.csv('MT.cov.607.csv')
-data=merge(data,data.MT.cov,by="ID")
 
-#take 3part 
-awk '{print $2}' PILOT.WXS.new.id | awk -F "-" '{print $1"-"$2"-"$3}' >t
-paste t  PILOT.WXS.new.id >PILOT.WXS.new2.id 
+#code/get.coverage.off.target.sh >summary.offtarget.cov.csv
+#code/get.coverage.MT.sh >summary.MT.cov.csv
+
+#sed 's/.MT.pileup.gz//' summary.MT.cov.csv  >summary.MT.cov.csv2
+#mv summary.MT.cov.csv2 summary.MT.cov.csv
+#sed 's/.offtarget.cov.gz//' summary.offtarget.cov.csv>summary.offtarget.cov.csv2
+#mv summary.offtarget.cov.csv2 summary.offtarget.cov.csv 
+
+code/get.coverage.rDNA.sh >summary.rDNA.csv
 

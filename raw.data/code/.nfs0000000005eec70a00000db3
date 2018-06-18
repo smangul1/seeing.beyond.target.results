@@ -1,0 +1,7 @@
+for f in *offtarget.cov
+do
+n=$(awk -F "," '{s+=$4;l+=$3-$2} END {print s/l}' $f)
+
+echo $f,$n
+
+done
