@@ -5,6 +5,13 @@ PILOT.WGS.clean.csv
 PILOT.RNASeq.clean.csv
 
 
+
+
+#Make csv
+sed 's/\t/,/g' TCIA.sample_info.txt >TCIA.sample_info.csv
+
+
+
 # TCGA sample outcomes
 
 Per-sample outcomes/phenotypes/covariates to test against.
