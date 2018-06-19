@@ -7,5 +7,13 @@
 #sed 's/.offtarget.cov.gz//' summary.offtarget.cov.csv>summary.offtarget.cov.csv2
 #mv summary.offtarget.cov.csv2 summary.offtarget.cov.csv 
 
-code/get.coverage.rDNA.sh >summary.rDNA.csv
+
+#code/get.coverage.rDNA.sh >summary.rDNA.csv
+
+#sed 's/.rDNA.pileup.gz//' summary.rDNA.csv >summary.rDNA.csv2
+#mv summary.rDNA.csv2 summary.rDNA.csv
+
+cd code
+Rscript merge.R 
+
 
