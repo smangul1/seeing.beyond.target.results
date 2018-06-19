@@ -16,4 +16,7 @@
 cd code
 Rscript merge.R 
 
+code/createREADME.sh $PWD/
+
+
 

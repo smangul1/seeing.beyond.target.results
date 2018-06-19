@@ -30,21 +30,21 @@ write.csv(data, file = "../PILOT.WXS.clean.metadata.results.csv")
 library(ggplot2)
 
 
-pdf('../offtarget.cov.pdf')
+png('../offtarget.cov.png')
 ggplot(data, aes(x=disease, y= cov.offtarget, fill=disease))+ geom_boxplot()+ggtitle("offtarget.cov")
 dev.off()
 
 
-pdf('../5S.cov.pdf')
+png('../5S.cov.png')
 ggplot(data, aes(x=disease, y= cov.5S/cov.offtarget, fill=disease))+ geom_boxplot()+ggtitle("5S.cov")
 dev.off()
 
 
-pdf('../MT.cov.pdf')
+png('../MT.cov.png')
 ggplot(data, aes(x=disease, y= cov.MT/cov.offtarget, fill=disease))+ geom_boxplot()+ggtitle("MT.cov")
 dev.off()
 
-pdf('../rDNA.cov.pdf')
+png('../rDNA.cov.png')
 ggplot(data, aes(x=disease, y= cov.rDNA/cov.offtarget, fill=disease))+ geom_boxplot()+ggtitle("rDNA.cov")
 dev.off()
 
@@ -57,21 +57,22 @@ dev.off()
 library(ggplot2)
 
 
-pdf('../offtarget.cov.clinical_data_pathology_T_stage.pdf')
+png('../offtarget.cov.clinical_data_pathology_T_stage.png')
 ggplot(data, aes(x=disease, y= cov.offtarget, fill=clinical_data_pathology_T_stage))+ geom_boxplot()+ggtitle("offtarget.cov")
 dev.off()
 
 
-pdf('../5S.cov.clinical_data_pathology_T_stage.pdf')
+png('../5S.cov.clinical_data_pathology_T_stage.png')
 ggplot(data, aes(x=disease, y= cov.5S/cov.offtarget, fill=clinical_data_pathology_T_stage))+ geom_boxplot()+ggtitle("5S.cov")
 dev.off()
 
 
-pdf('../MT.cov.clinical_data_pathology_T_stage.pdf')
+png('../MT.cov.clinical_data_pathology_T_stage.png')
 ggplot(data, aes(x=disease, y= cov.MT/cov.offtarget, fill=clinical_data_pathology_T_stage))+ geom_boxplot()+ggtitle("MT.cov")
 dev.off()
 
-pdf('../rDNA.cov.clinical_data_pathology_T_stage.pdf')
+png('../rDNA.cov.clinical_data_pathology_T_stage.png')
 ggplot(data, aes(x=disease, y= cov.rDNA/cov.offtarget, fill=clinical_data_pathology_T_stage))+ geom_boxplot()+ggtitle("rDNA.cov")
 dev.off()
+
 
