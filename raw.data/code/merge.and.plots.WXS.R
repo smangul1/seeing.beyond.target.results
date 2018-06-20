@@ -30,22 +30,22 @@ write.csv(data, file = "../PILOT.WXS.clean.metadata.results.csv")
 library(ggplot2)
 
 
-png('../offtarget.cov.png',width = 5, height = 10, units = 'in', res = 300)
-ggplot(data, aes(x=disease, y= cov.offtarget, fill=disease))+ geom_boxplot()+ggtitle("offtarget.cov")
+png('../offtarget.cov.png',width = 15, height = 5, units = 'in', res = 300)
+ggplot(data, aes(x=disease, y= cov.offtarget, fill=disease))+ geom_boxplot()+ggtitle("offtarget.WXS")
 dev.off()
 
 
-png('../5S.cov.png',width = 5, height = 10, units = 'in', res = 300)
-ggplot(data, aes(x=disease, y= cov.5S/cov.offtarget, fill=disease))+ geom_boxplot()+ggtitle("5S.cov")
+png('../5S.cov.png',width = 15, height = 5, units = 'in', res = 300)
+ggplot(data, aes(x=disease, y= cov.5S/cov.offtarget, fill=disease))+ geom_boxplot()+ggtitle("5S.WXS")
 dev.off()
 
 
-png('../MT.cov.png',width = 5, height = 10, units = 'in', res = 300)
-ggplot(data, aes(x=disease, y= cov.MT/cov.offtarget, fill=disease))+ geom_boxplot()+ggtitle("MT.cov")
+png('../MT.cov.png',width = 15, height = 5, units = 'in', res = 300)
+ggplot(data, aes(x=disease, y= cov.MT/cov.offtarget, fill=disease))+ geom_boxplot()+ggtitle("MT.WXS")
 dev.off()
 
-png('../rDNA.cov.png',width = 5, height = 10, units = 'in', res = 300)
-ggplot(data, aes(x=disease, y= cov.rDNA/cov.offtarget, fill=disease))+ geom_boxplot()+ggtitle("rDNA.cov")
+png('../rDNA.cov.png',width = 15, height = 5, units = 'in', res = 300)
+ggplot(data, aes(x=disease, y= cov.rDNA/cov.offtarget, fill=disease))+ geom_boxplot()+ggtitle("rDNA.WXS")
 dev.off()
 
 
@@ -57,22 +57,22 @@ dev.off()
 library(ggplot2)
 
 
-png('../offtarget.cov.clinical_data_pathology_T_stage.png',width = 5, height = 10, units = 'in', res = 300)
-ggplot(data, aes(x=disease, y= cov.offtarget, fill=clinical_data_pathology_T_stage))+ geom_boxplot()+ggtitle("offtarget.cov")
+png('../offtarget.cov.clinical_data_pathology_T_stage.png',width = 15, height = 5, units = 'in', res = 300)
+ggplot(data, aes(x=disease, y= cov.offtarget, fill=clinical_data_pathology_T_stage))+ geom_boxplot()+ggtitle("offtarget.WXS")
 dev.off()
 
 
-png('../5S.cov.clinical_data_pathology_T_stage.png',width = 5, height = 10, units = 'in', res = 300)
-ggplot(data, aes(x=disease, y= cov.5S/cov.offtarget, fill=clinical_data_pathology_T_stage))+ geom_boxplot()+ggtitle("5S.cov")
+png('../5S.cov.clinical_data_pathology_T_stage.png',width = 15, height = 5, units = 'in', res = 300)
+ggplot(data, aes(x=disease, y= cov.5S/cov.offtarget, fill=clinical_data_pathology_T_stage))+ geom_boxplot()+ggtitle("5S.WXS")
 dev.off()
 
 
-png('../MT.cov.clinical_data_pathology_T_stage.png',width = 5, height = 10, units = 'in', res = 300)
-ggplot(data, aes(x=disease, y= cov.MT/cov.offtarget, fill=clinical_data_pathology_T_stage))+ geom_boxplot()+ggtitle("MT.cov")
+png('../MT.cov.clinical_data_pathology_T_stage.png',width = 51, height = 5, units = 'in', res = 300)
+ggplot(data, aes(x=disease, y= cov.MT/cov.offtarget, fill=clinical_data_pathology_T_stage))+ geom_boxplot()+ggtitle("MT.WXS")
 dev.off()
 
-png('../rDNA.cov.clinical_data_pathology_T_stage.png',width = 5, height = 10, units = 'in', res = 300)
-ggplot(data, aes(x=disease, y= cov.rDNA/cov.offtarget, fill=clinical_data_pathology_T_stage))+ geom_boxplot()+ggtitle("rDNA.cov")
+png('../rDNA.cov.clinical_data_pathology_T_stage.png',width = 15, height = 5, units = 'in', res = 300)
+ggplot(data, aes(x=disease, y= cov.rDNA/cov.offtarget, fill=clinical_data_pathology_T_stage))+ geom_boxplot()+ggtitle("rDNA.WXS")
 dev.off()
 
 
