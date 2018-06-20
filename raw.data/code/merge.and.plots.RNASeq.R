@@ -31,21 +31,21 @@ library(ggplot2)
 
 
 png('../total.RNA-Seq.png',width = 15, height = 5, units = 'in', res = 300)
-ggplot(data, aes(x=disease, y= n.reads, fill=disease))+ geom_boxplot()+ggtitle("total reads RNA-Seq")
+ggplot(data, aes(x=disease, y= n.reads, fill=disease))+ geom_boxplot()+ggtitle("total reads RNA-Seq")+theme(axis.text=element_text(size=25),axis.title=element_text(size=25,face="bold"))+theme(axis.text.x = element_text(angle=90)) +theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),panel.background = element_blank(), axis.line = element_line(colour = "black"))+coord_flip()+theme(plot.title = element_text(size = 40, face = "bold"))
 dev.off()
 
 
 png('../5S.cov.RNA-Seq.png',width = 15, height = 5, units = 'in', res = 300)
-ggplot(data, aes(x=disease, y= 1000000*cov.5S/n.reads, fill=disease))+ geom_boxplot()+ggtitle("5S.RNA-Seq")
+ggplot(data, aes(x=disease, y= 1000000*cov.5S/n.reads, fill=disease))+ geom_boxplot()+ggtitle("5S.RNA-Seq")+theme(axis.text=element_text(size=25),axis.title=element_text(size=25,face="bold"))+theme(axis.text.x = element_text(angle=90)) +theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),panel.background = element_blank(), axis.line = element_line(colour = "black"))+coord_flip()+theme(plot.title = element_text(size = 40, face = "bold"))
 dev.off()
 
 
 png('../MT.cov.RNA-Seq.png',width = 15, height = 5, units = 'in', res = 300)
-ggplot(data, aes(x=disease, y= 1000000*cov.MT/n.reads, fill=disease))+ geom_boxplot()+ggtitle("MT.RNA-Seq")
+ggplot(data, aes(x=disease, y= 1000000*cov.MT/n.reads, fill=disease))+ geom_boxplot()+ggtitle("MT.RNA-Seq")+theme(axis.text=element_text(size=25),axis.title=element_text(size=25,face="bold"))+theme(axis.text.x = element_text(angle=90)) +theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),panel.background = element_blank(), axis.line = element_line(colour = "black"))+coord_flip()+theme(plot.title = element_text(size = 40, face = "bold"))
 dev.off()
 
 png('../rDNA.cov.RNA-Seq.png',width = 15, height = 5, units = 'in', res = 300)
-ggplot(data, aes(x=disease, y= 1000000*cov.rDNA/n.reads, fill=disease))+ geom_boxplot()+ggtitle("rDNA.RNA-Seq")
+ggplot(data, aes(x=disease, y= 1000000*cov.rDNA/n.reads, fill=disease))+ geom_boxplot()+ggtitle("rDNA.RNA-Seq")+theme(axis.text=element_text(size=25),axis.title=element_text(size=25,face="bold"))+theme(axis.text.x = element_text(angle=90)) +theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),panel.background = element_blank(), axis.line = element_line(colour = "black"))+coord_flip()+theme(plot.title = element_text(size = 40, face = "bold"))
 dev.off()
 
 
@@ -60,16 +60,16 @@ library(ggplot2)
 
 
 png('../5S.cov.clinical_data_pathology_T_stage.RNA-Seq.png',width = 15, height = 5, units = 'in', res = 300)
-ggplot(data, aes(x=disease, y= 1000000*cov.5S/n.reads, fill=clinical_data_pathology_T_stage))+ geom_boxplot()+ggtitle("5S.RNA-Seq")
+ggplot(data, aes(x=disease, y= 1000000*cov.5S/n.reads, fill=clinical_data_pathology_T_stage))+ geom_boxplot()+ggtitle("5S.RNA-Seq")+theme(axis.text=element_text(size=25),axis.title=element_text(size=25,face="bold"))+theme(axis.text.x = element_text(angle=90)) +theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),panel.background = element_blank(), axis.line = element_line(colour = "black"))+coord_flip()+theme(plot.title = element_text(size = 40, face = "bold"))
 dev.off()
 
 
 png('../MT.cov.clinical_data_pathology_T_stage.RNA-Seq.png',width = 15, height = 5, units = 'in', res = 300)
-ggplot(data, aes(x=disease, y= 1000000*cov.MT/n.reads, fill=clinical_data_pathology_T_stage))+ geom_boxplot()+ggtitle("MT.RNA-Seq")
+ggplot(data, aes(x=disease, y= 1000000*cov.MT/n.reads, fill=clinical_data_pathology_T_stage))+ geom_boxplot()+ggtitle("MT.RNA-Seq")+theme(axis.text=element_text(size=25),axis.title=element_text(size=25,face="bold"))+theme(axis.text.x = element_text(angle=90)) +theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),panel.background = element_blank(), axis.line = element_line(colour = "black"))+coord_flip()+theme(plot.title = element_text(size = 40, face = "bold"))
 dev.off()
 
 png('../rDNA.cov.clinical_data_pathology_T_stage.RNA-Seq.png',width = 15, height = 5, units = 'in', res = 300)
-ggplot(data, aes(x=disease, y= 1000000*cov.rDNA/n.reads, fill=clinical_data_pathology_T_stage))+ geom_boxplot()+ggtitle("rDNA.RNA-Seq")
+ggplot(data, aes(x=disease, y= 1000000*cov.rDNA/n.reads, fill=clinical_data_pathology_T_stage))+ geom_boxplot()+ggtitle("rDNA.RNA-Seq")+theme(axis.text=element_text(size=25),axis.title=element_text(size=25,face="bold"))+theme(axis.text.x = element_text(angle=90)) +theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),panel.background = element_blank(), axis.line = element_line(colour = "black"))+coord_flip()+theme(plot.title = element_text(size = 40, face = "bold"))
 dev.off()
 
 
