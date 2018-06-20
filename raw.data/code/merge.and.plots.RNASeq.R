@@ -1,13 +1,13 @@
 #metadata - change the header. replace by ID
 
 data.MT=read.csv('../summary.MT.cov.csv')
-data.offtarget=read.csv('../summary.offtarget.cov.csv')
+data.reads=read.csv('../total.number.reads.396.txt')
 data.rDNA=read.csv('../summary.rDNA.csv')
-metadata=read.csv('../../outcomes/PILOT.WXS.clean.metadata.csv')
+metadata=read.csv('../../outcomes/PILOT.RNASeq.clean.metadata.csv')
 
 
 
-data=merge(data.MT,data.offtarget,by='ID')
+data=merge(data.MT,data.reads,by='ID')
 data=merge(data.rDNA,data,by='ID')
 
 
@@ -19,7 +19,7 @@ head(data)
 
 
 
-write.csv(data, file = "../PILOT.WXS.clean.metadata.results.csv")
+write.csv(data, file = "../PILOT.RNASeq.clean.metadata.results.csv")
 
 
 
@@ -30,22 +30,22 @@ write.csv(data, file = "../PILOT.WXS.clean.metadata.results.csv")
 library(ggplot2)
 
 
-png('../offtarget.cov.png',width = 5, height = 10, units = 'in', res = 300)
-ggplot(data, aes(x=disease, y= cov.offtarget, fill=disease))+ geom_boxplot()+ggtitle("offtarget.cov")
+png('../total.RNA-Seq.png',width = 5, height = 10, units = 'in', res = 300)
+ggplot(data, aes(x=disease, y= n.reads, fill=disease))+ geom_boxplot()+ggtitle("total.reads")
 dev.off()
 
 
-png('../5S.cov.png',width = 5, height = 10, units = 'in', res = 300)
-ggplot(data, aes(x=disease, y= cov.5S/cov.offtarget, fill=disease))+ geom_boxplot()+ggtitle("5S.cov")
+png('../5S.cov.RNA-Seq.png',width = 5, height = 10, units = 'in', res = 300)
+ggplot(data, aes(x=disease, y= cov.5S/n.reads, fill=disease))+ geom_boxplot()+ggtitle("5S.RNA-Seq")
 dev.off()
 
 
-png('../MT.cov.png',width = 5, height = 10, units = 'in', res = 300)
-ggplot(data, aes(x=disease, y= cov.MT/cov.offtarget, fill=disease))+ geom_boxplot()+ggtitle("MT.cov")
+png('../MT.cov.RNA-Seq.png',width = 5, height = 10, units = 'in', res = 300)
+ggplot(data, aes(x=disease, y= cov.MT/n.reads, fill=disease))+ geom_boxplot()+ggtitle("MT.RNA-Seq")
 dev.off()
 
-png('../rDNA.cov.png',width = 5, height = 10, units = 'in', res = 300)
-ggplot(data, aes(x=disease, y= cov.rDNA/cov.offtarget, fill=disease))+ geom_boxplot()+ggtitle("rDNA.cov")
+png('../rDNA.cov.RNA-Seq.png',width = 5, height = 10, units = 'in', res = 300)
+ggplot(data, aes(x=disease, y= cov.rDNA/n.reads, fill=disease))+ geom_boxplot()+ggtitle("rDNA.RNA-Seq")
 dev.off()
 
 
@@ -57,22 +57,19 @@ dev.off()
 library(ggplot2)
 
 
-png('../offtarget.cov.clinical_data_pathology_T_stage.png',width = 5, height = 10, units = 'in', res = 300)
-ggplot(data, aes(x=disease, y= cov.offtarget, fill=clinical_data_pathology_T_stage))+ geom_boxplot()+ggtitle("offtarget.cov")
+
+
+png('../5S.cov.clinical_data_pathology_T_stage.RNA-Seq.png',width = 5, height = 10, units = 'in', res = 300)
+ggplot(data, aes(x=disease, y= cov.5S/n.reads, fill=clinical_data_pathology_T_stage))+ geom_boxplot()+ggtitle("5S.RNA-Seq")
 dev.off()
 
 
-png('../5S.cov.clinical_data_pathology_T_stage.png',width = 5, height = 10, units = 'in', res = 300)
-ggplot(data, aes(x=disease, y= cov.5S/cov.offtarget, fill=clinical_data_pathology_T_stage))+ geom_boxplot()+ggtitle("5S.cov")
+png('../MT.cov.clinical_data_pathology_T_stage.RNA-Seq.png',width = 5, height = 10, units = 'in', res = 300)
+ggplot(data, aes(x=disease, y= cov.MT/n.reads, fill=clinical_data_pathology_T_stage))+ geom_boxplot()+ggtitle("MT.RNA-Seq")
 dev.off()
 
-
-png('../MT.cov.clinical_data_pathology_T_stage.png',width = 5, height = 10, units = 'in', res = 300)
-ggplot(data, aes(x=disease, y= cov.MT/cov.offtarget, fill=clinical_data_pathology_T_stage))+ geom_boxplot()+ggtitle("MT.cov")
-dev.off()
-
-png('../rDNA.cov.clinical_data_pathology_T_stage.png',width = 5, height = 10, units = 'in', res = 300)
-ggplot(data, aes(x=disease, y= cov.rDNA/cov.offtarget, fill=clinical_data_pathology_T_stage))+ geom_boxplot()+ggtitle("rDNA.cov")
+png('../rDNA.cov.clinical_data_pathology_T_stage.RNA-Seq.png',width = 5, height = 10, units = 'in', res = 300)
+ggplot(data, aes(x=disease, y= cov.rDNA/n.reads, fill=clinical_data_pathology_T_stage))+ geom_boxplot()+ggtitle("rDNA.RNA-Seq")
 dev.off()
 
 
