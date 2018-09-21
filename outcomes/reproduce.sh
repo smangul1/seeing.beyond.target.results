@@ -3,4 +3,6 @@
 #merge with metadata
 Rscript merge.R 
 
+awk -F "," '{print $2}' PILOT.RNASeq.clean.csv >RNA.Seq.fileNames.txt 
+
 
