@@ -1,0 +1,9 @@
+#SampleID	Metaphlan2_Analysis
+k__Viruses	100.0
+k__Viruses|p__Viruses_noname	100.0
+k__Viruses|p__Viruses_noname|c__Viruses_noname	100.0
+k__Viruses|p__Viruses_noname|c__Viruses_noname|o__Caudovirales	100.0
+k__Viruses|p__Viruses_noname|c__Viruses_noname|o__Caudovirales|f__Siphoviridae	100.0
+k__Viruses|p__Viruses_noname|c__Viruses_noname|o__Caudovirales|f__Siphoviridae|g__Siphoviridae_noname	100.0
+k__Viruses|p__Viruses_noname|c__Viruses_noname|o__Caudovirales|f__Siphoviridae|g__Siphoviridae_noname|s__Staphylococcus_phage_PVL	100.0
+k__Viruses|p__Viruses_noname|c__Viruses_noname|o__Caudovirales|f__Siphoviridae|g__Siphoviridae_noname|s__Staphylococcus_phage_PVL|t__PRJNA14392	100.0

@@ -1,0 +1,9 @@
+#SampleID	Metaphlan2_Analysis
+k__Viruses	100.0
+k__Viruses|p__Viruses_noname	100.0
+k__Viruses|p__Viruses_noname|c__Viruses_noname	100.0
+k__Viruses|p__Viruses_noname|c__Viruses_noname|o__Viruses_noname	100.0
+k__Viruses|p__Viruses_noname|c__Viruses_noname|o__Viruses_noname|f__Retroviridae	100.0
+k__Viruses|p__Viruses_noname|c__Viruses_noname|o__Viruses_noname|f__Retroviridae|g__Gammaretrovirus	100.0
+k__Viruses|p__Viruses_noname|c__Viruses_noname|o__Viruses_noname|f__Retroviridae|g__Gammaretrovirus|s__Murine_osteosarcoma_virus	100.0
+k__Viruses|p__Viruses_noname|c__Viruses_noname|o__Viruses_noname|f__Retroviridae|g__Gammaretrovirus|s__Murine_osteosarcoma_virus|t__PRJNA14655	100.0

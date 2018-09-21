@@ -1,0 +1,9 @@
+#SampleID	Metaphlan2_Analysis
+k__Viruses	100.0
+k__Viruses|p__Viruses_noname	100.0
+k__Viruses|p__Viruses_noname|c__Viruses_noname	100.0
+k__Viruses|p__Viruses_noname|c__Viruses_noname|o__Viruses_noname	100.0
+k__Viruses|p__Viruses_noname|c__Viruses_noname|o__Viruses_noname|f__Potyviridae	100.0
+k__Viruses|p__Viruses_noname|c__Viruses_noname|o__Viruses_noname|f__Potyviridae|g__Potyvirus	100.0
+k__Viruses|p__Viruses_noname|c__Viruses_noname|o__Viruses_noname|f__Potyviridae|g__Potyvirus|s__Dasheen_mosaic_virus	100.0
+k__Viruses|p__Viruses_noname|c__Viruses_noname|o__Viruses_noname|f__Potyviridae|g__Potyvirus|s__Dasheen_mosaic_virus|t__PRJNA15388	100.0

@@ -1,0 +1,7 @@
+#SampleID	Metaphlan2_Analysis
+k__Bacteria	100.0
+k__Bacteria|p__Actinobacteria	100.0
+k__Bacteria|p__Actinobacteria|c__Actinobacteria	100.0
+k__Bacteria|p__Actinobacteria|c__Actinobacteria|o__Actinomycetales	100.0
+k__Bacteria|p__Actinobacteria|c__Actinobacteria|o__Actinomycetales|f__Propionibacteriaceae	100.0
+k__Bacteria|p__Actinobacteria|c__Actinobacteria|o__Actinomycetales|f__Propionibacteriaceae|g__Propionibacteriaceae_unclassified	100.0
