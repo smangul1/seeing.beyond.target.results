@@ -30,13 +30,21 @@
 
 
 #cd ~/code/seeing.beyond.target.results/raw.data/
-grep -v ",$"  total.number.reads.396.txt > total.number.reads.396.txt2
-mv total.number.reads.396.txt2 total.number.reads.396.txt
+#grep -v ",$"  total.number.reads.396.txt > total.number.reads.396.txt2
+#mv total.number.reads.396.txt2 total.number.reads.396.txt
+
+#sed 's/.bam//' total.number.reads.396.txt >total.number.reads.396.txt2
+#mv total.number.reads.396.txt2 total.number.reads.396.txt
 
 
-#cd code
-#Rscript merge.R 
-#code/createREADME.sh $PWD/
+#R
+cd code
+Rscript merge.and.plots.RNASeq.R
+Rscript merge.and.plots.WXS.R
+
+cd ..
+
+code/createREADME.sh  $PWD/
 
 
 
