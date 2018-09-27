@@ -1,0 +1,3 @@
+contig,id,name,number_mismatches,alignment_length,contig_length,adjusted_identity,flag
+k41_308,NC_001144.5,Saccharomyces_cerevisiae_S288c_chromosome_XII__complete_sequence,0,224,224,100.0,confirmed-blast-genus
+k41_221,NC_001144.5,Saccharomyces_cerevisiae_S288c_chromosome_XII__complete_sequence,0,308,308,100.0,confirmed-blast-genus

@@ -1,0 +1,3 @@
+contig,id,name,number_mismatches,alignment_length,contig_length,adjusted_identity,flag
+k41_14,NC_006040.1,Kluyveromyces_lactis_strain_NRRL_Y-1140_chromosome_D_complete_sequence,21,272,281,92.2794117647,no-blast
+k41_18,NC_001144.5,Saccharomyces_cerevisiae_S288c_chromosome_XII__complete_sequence,0,203,203,100.0,no-blast

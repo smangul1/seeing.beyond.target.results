@@ -1,0 +1,4 @@
+contig,id,name,number_mismatches,alignment_length,contig_length,adjusted_identity,flag
+k91_55,NC_006037.1,Kluyveromyces_lactis_strain_NRRL_Y-1140_chromosome_A_complete_sequence,234,38,271,-515.789473684,no-blast
+k91_56,NC_012867.1,Candida_dubliniensis_CD36_chromosome_R__complete_sequence,248,36,283,-588.888888889,no-blast
+k91_4,NC_016457.1,Thielavia_terrestris_NRRL_8126_chromosome_1__complete_sequence,187,30,217,-523.333333333,no-blast

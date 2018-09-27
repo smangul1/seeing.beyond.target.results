@@ -1,0 +1,9 @@
+#SampleID	Metaphlan2_Analysis
+k__Viruses	100.0
+k__Viruses|p__Viruses_noname	100.0
+k__Viruses|p__Viruses_noname|c__Viruses_noname	100.0
+k__Viruses|p__Viruses_noname|c__Viruses_noname|o__Viruses_noname	100.0
+k__Viruses|p__Viruses_noname|c__Viruses_noname|o__Viruses_noname|f__Retroviridae	100.0
+k__Viruses|p__Viruses_noname|c__Viruses_noname|o__Viruses_noname|f__Retroviridae|g__Alpharetrovirus	100.0
+k__Viruses|p__Viruses_noname|c__Viruses_noname|o__Viruses_noname|f__Retroviridae|g__Alpharetrovirus|s__Fujinami_sarcoma_virus	100.0
+k__Viruses|p__Viruses_noname|c__Viruses_noname|o__Viruses_noname|f__Retroviridae|g__Alpharetrovirus|s__Fujinami_sarcoma_virus|t__PRJNA14708	100.0

@@ -1,0 +1,2 @@
+contig,id,name,number_mismatches,alignment_length,contig_length,adjusted_identity,flag
+k31_11,NC_007268.2,Leishmania_major_strain_Friedlin_complete_genome__chromosome_27,54,246,274,78.0487804878,no-blast

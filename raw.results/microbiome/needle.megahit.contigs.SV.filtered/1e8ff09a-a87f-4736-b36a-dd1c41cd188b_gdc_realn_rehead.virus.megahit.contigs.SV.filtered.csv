@@ -1,0 +1,4 @@
+contig,id,name,number_mismatches,alignment_length,contig_length,adjusted_identity,flag
+k51_4,AF268174,Bovine_viral_diarrhea_virus_type_2_strain_BVDV2-Ms_St_T4529c_polyprotein_gene_partial_cds_,62,147,203,57.8231292517,no-blast
+k51_7,KU746283,Guanarito_mammarenavirus_isolate_CVH-960201_segment_L_complete_sequence_,13,365,378,96.4383561644,no-blast
+k51_8,FB361098,Sequence_17_from_Patent_WO2006110762_,77,219,279,64.8401826484,no-blast

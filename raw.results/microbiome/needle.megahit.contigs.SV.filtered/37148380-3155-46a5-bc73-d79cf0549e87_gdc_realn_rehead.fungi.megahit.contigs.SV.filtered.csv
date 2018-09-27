@@ -1,0 +1,9 @@
+contig,id,name,number_mismatches,alignment_length,contig_length,adjusted_identity,flag
+k41_32,NC_005788.4,Eremothecium_gossypii_ATCC_10895_chromosome_VII__complete_sequence,9,271,271,96.6789667897,no-blast
+k41_33,NC_001147.6,Saccharomyces_cerevisiae_S288c_chromosome_XV__complete_sequence,0,215,215,100.0,no-blast
+k41_30,NC_001138.5,Saccharomyces_cerevisiae_S288c_chromosome_VI__complete_sequence,0,214,214,100.0,no-blast
+k41_25,NC_001144.5,Saccharomyces_cerevisiae_S288c_chromosome_XII__complete_sequence,1,284,284,99.6478873239,no-blast
+k41_24,NC_001144.5,Saccharomyces_cerevisiae_S288c_chromosome_XII__complete_sequence,0,213,213,100.0,no-blast
+k41_35,NC_001145.3,Saccharomyces_cerevisiae_S288c_chromosome_XIII__complete_sequence,0,212,212,100.0,no-blast
+k41_36,NC_006040.1,Kluyveromyces_lactis_strain_NRRL_Y-1140_chromosome_D_complete_sequence,21,272,281,92.2794117647,no-blast
+k41_21,NC_001144.5,Saccharomyces_cerevisiae_S288c_chromosome_XII__complete_sequence,0,301,301,100.0,confirmed-blast-genus

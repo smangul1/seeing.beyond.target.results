@@ -1,0 +1,2 @@
+contig,id,name,number_mismatches,alignment_length,contig_length,adjusted_identity,flag
+k51_4,DD166864,ANTIBODY_TO_LATENT_MEMBRANE_PROTEINS_AND_USES_THEREOF_,73,154,216,52.5974025974,no-blast

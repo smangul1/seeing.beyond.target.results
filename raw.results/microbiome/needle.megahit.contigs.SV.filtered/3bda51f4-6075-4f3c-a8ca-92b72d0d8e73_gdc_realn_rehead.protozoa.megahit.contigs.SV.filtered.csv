@@ -1,0 +1,2 @@
+contig,id,name,number_mismatches,alignment_length,contig_length,adjusted_identity,flag
+k41_6,NC_025260.1,Theileria_orientalis_strain_Shintoku_DNA__chromosome_1__complete_genome,17,212,221,91.9811320755,no-blast

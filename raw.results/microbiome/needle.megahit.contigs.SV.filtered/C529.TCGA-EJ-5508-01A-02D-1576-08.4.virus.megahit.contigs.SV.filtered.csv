@@ -1,0 +1,4 @@
+contig,id,name,number_mismatches,alignment_length,contig_length,adjusted_identity,flag
+k61_12,AJ000891,Hepatitis_C_virus_p3f10_mRNA_for_Ig_V_region_heavy_chain_,52,274,300,81.0218978102,no-blast
+k61_2,DD166864,ANTIBODY_TO_LATENT_MEMBRANE_PROTEINS_AND_USES_THEREOF_,76,154,219,50.6493506494,no-blast
+k61_3,CS402432,Sequence_1_from_Patent_WO2006037038_,1,271,271,99.63099631,no-blast

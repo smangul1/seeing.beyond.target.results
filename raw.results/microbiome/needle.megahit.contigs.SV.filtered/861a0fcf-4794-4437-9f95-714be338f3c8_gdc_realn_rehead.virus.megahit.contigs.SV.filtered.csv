@@ -1,0 +1,11 @@
+contig,id,name,number_mismatches,alignment_length,contig_length,adjusted_identity,flag
+k51_22,FB361098,Sequence_17_from_Patent_WO2006110762_,131,219,332,40.1826484018,no-blast
+k51_19,U89438,Pestivirus_type_1_nonstructural_protein_P125-2_(p125)_mRNA_partial_cds_,11,269,273,95.9107806691,no-blast
+k51_18,JB021959,Sequence_10_from_Patent_EP2495325_,2,846,846,99.7635933806,no-blast
+k51_21,E01406,DNA_sequence_of_4_16kb_human_Bam_H1/Bg_1_II_,0,344,344,100.0,no-blast
+k51_17,E01406,DNA_sequence_of_4_16kb_human_Bam_H1/Bg_1_II_,0,207,207,100.0,no-blast
+k51_16,E01406,DNA_sequence_of_4_16kb_human_Bam_H1/Bg_1_II_,0,298,298,100.0,no-blast
+k51_11,AF268174,Bovine_viral_diarrhea_virus_type_2_strain_BVDV2-Ms_St_T4529c_polyprotein_gene_partial_cds_,101,147,242,31.2925170068,no-blast
+k51_7,E01406,DNA_sequence_of_4_16kb_human_Bam_H1/Bg_1_II_,0,330,330,100.0,no-blast
+k51_13,KU746283,Guanarito_mammarenavirus_isolate_CVH-960201_segment_L_complete_sequence_,19,377,395,94.9602122016,no-blast
+k51_12,JB021957,Sequence_8_from_Patent_EP2495325_,202,110,311,-83.6363636364,no-blast

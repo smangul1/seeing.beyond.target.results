@@ -1,0 +1,7 @@
+contig,id,name,number_mismatches,alignment_length,contig_length,adjusted_identity,flag
+k41_161,NC_006040.1,Kluyveromyces_lactis_strain_NRRL_Y-1140_chromosome_D_complete_sequence,25,270,283,90.7407407407,no-blast
+k41_267,NC_001144.5,Saccharomyces_cerevisiae_S288c_chromosome_XII__complete_sequence,1,251,251,99.6015936255,no-blast
+k41_240,NC_001144.5,Saccharomyces_cerevisiae_S288c_chromosome_XII__complete_sequence,0,218,218,100.0,no-blast
+k41_135,NC_001144.5,Saccharomyces_cerevisiae_S288c_chromosome_XII__complete_sequence,0,214,214,100.0,confirmed-blast-genus
+k41_81,NC_001139.9,Saccharomyces_cerevisiae_S288c_chromosome_VII__complete_sequence,0,258,258,100.0,confirmed-blast-genus
+k41_156,NC_001144.5,Saccharomyces_cerevisiae_S288c_chromosome_XII__complete_sequence,0,231,231,100.0,confirmed-blast-genus

@@ -1,0 +1,3 @@
+contig,id,name,number_mismatches,alignment_length,contig_length,adjusted_identity,flag
+k41_590,NC_016478.1,Thermothelomyces_thermophila_ATCC_42464_chromosome_7__complete_sequence,9,241,241,96.265560166,no-blast
+k41_832,NC_006040.1,Kluyveromyces_lactis_strain_NRRL_Y-1140_chromosome_D_complete_sequence,27,260,277,89.6153846154,no-blast

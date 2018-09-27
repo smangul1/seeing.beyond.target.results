@@ -1,0 +1,7 @@
+contig,id,name,number_mismatches,alignment_length,contig_length,adjusted_identity,flag
+k81_91,NC_007287.2,Leishmania_major_strain_Friedlin_complete_genome__chromosome_36,1,309,309,99.6763754045,no-blast
+k81_68,NC_001905.3,Leishmania_major_strain_Friedlin_complete_genome__chromosome_1,154,159,284,3.14465408805,no-blast
+k81_27,NC_007258.2,Leishmania_major_strain_Friedlin_complete_genome__chromosome_17,3,356,356,99.1573033708,no-blast
+k81_15,NC_025260.1,Theileria_orientalis_strain_Shintoku_DNA__chromosome_1__complete_genome,69,224,275,69.1964285714,no-blast
+k81_29,NC_007268.2,Leishmania_major_strain_Friedlin_complete_genome__chromosome_27,116,169,271,31.3609467456,no-blast
+k81_28,NC_007285.2,Leishmania_major_strain_Friedlin_complete_genome__chromosome_33,31,301,301,89.7009966777,no-blast

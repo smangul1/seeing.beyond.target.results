@@ -1,0 +1,4 @@
+contig,id,name,number_mismatches,alignment_length,contig_length,adjusted_identity,flag
+k41_327,KU746283,Guanarito_mammarenavirus_isolate_CVH-960201_segment_L_complete_sequence_,4,319,323,98.7460815047,no-blast
+k41_409,BD140416,Hepatitis_C_virus_protease_,1,204,204,99.5098039216,no-blast
+k41_279,FB361098,Sequence_17_from_Patent_WO2006110762_,277,219,479,-26.4840182648,no-blast
