@@ -1,0 +1,2 @@
+SAMPLE,nIGH,nIGK,nIGL,nTCRA,nTCRB,nTCRD,nTCRG, loadIGH,loadIGK,loadIGL,loadTCRA,loadTCRB,loadTCRD,loadTCRG,alphaIGH,alphaIGK,alphaIGL,alphaTCRA,alphaTCRB,alphaTCRD,alphaTCRG
+C529.TCGA-HC-A76X-01A-11D-A33T-08.1,0,0,0,1,0,0,0,0,0,0,11,0,0,0,0,0,0,-0.0,0,0,0

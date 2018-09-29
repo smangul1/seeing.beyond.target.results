@@ -1,0 +1,2 @@
+SAMPLE,nIGH,nIGK,nIGL,nTCRA,nTCRB,nTCRD,nTCRG, loadIGH,loadIGK,loadIGL,loadTCRA,loadTCRB,loadTCRD,loadTCRG,alphaIGH,alphaIGK,alphaIGL,alphaTCRA,alphaTCRB,alphaTCRD,alphaTCRG
+9910c730-39be-4cf1-9007-1b3a9712a4f2_gdc_realn_rehead,1,1,0,43,0,0,0,4,27,0,556,0,0,0,-0.0,-0.0,0,3.33386531656,0,0,0

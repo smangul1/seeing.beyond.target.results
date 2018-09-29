@@ -1,0 +1,2 @@
+SAMPLE,nIGH,nIGK,nIGL,nTCRA,nTCRB,nTCRD,nTCRG, loadIGH,loadIGK,loadIGL,loadTCRA,loadTCRB,loadTCRD,loadTCRG,alphaIGH,alphaIGK,alphaIGL,alphaTCRA,alphaTCRB,alphaTCRD,alphaTCRG
+C828.TCGA-EB-A4IS-01A-21D-A25O-08.3,0,0,0,1,0,0,0,0,0,0,9,0,0,0,0,0,0,-0.0,0,0,0

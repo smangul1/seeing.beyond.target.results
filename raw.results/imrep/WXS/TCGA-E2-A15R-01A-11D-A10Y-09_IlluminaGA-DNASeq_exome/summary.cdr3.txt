@@ -1,0 +1,2 @@
+SAMPLE,nIGH,nIGK,nIGL,nTCRA,nTCRB,nTCRD,nTCRG, loadIGH,loadIGK,loadIGL,loadTCRA,loadTCRB,loadTCRD,loadTCRG,alphaIGH,alphaIGK,alphaIGL,alphaTCRA,alphaTCRB,alphaTCRD,alphaTCRG
+TCGA-E2-A15R-01A-11D-A10Y-09_IlluminaGA-DNASeq_exome,0,0,0,17,1,0,0,0,0,0,121,4,0,0,0,0,0,1.83957351161,-0.0,0,0

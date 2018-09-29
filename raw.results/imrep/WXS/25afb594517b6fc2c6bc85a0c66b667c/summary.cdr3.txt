@@ -1,0 +1,2 @@
+SAMPLE,nIGH,nIGK,nIGL,nTCRA,nTCRB,nTCRD,nTCRG, loadIGH,loadIGK,loadIGL,loadTCRA,loadTCRB,loadTCRD,loadTCRG,alphaIGH,alphaIGK,alphaIGL,alphaTCRA,alphaTCRB,alphaTCRD,alphaTCRG
+25afb594517b6fc2c6bc85a0c66b667c,0,0,0,19,0,1,0,0,0,0,103,0,2,0,0,0,0,2.02562153288,0,-0.0,0
